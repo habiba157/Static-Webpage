@@ -1,0 +1,342 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+@media(max-width:1382px){}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+body{
+    font-family: 'Indie Flower', cursive;
+    background-color: rgb(202, 153, 153);
+}
+header img {
+    width: 150px;
+    padding-top: 13px;
+    margin-left:10px;
+}
+header a {
+    text-decoration: none;
+    color: rgb(165, 104, 14);
+}
+header ul{
+    display: flex;
+    float: right;
+    padding-top: 13px;
+    margin-right: 10px;
+}
+header li{
+    list-style: none;
+    margin-left: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 20px;
+}
+header i{
+    color: rgb(165, 104, 14);
+}
+#h1{
+    font-size: 65px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(105, 56, 56);
+    text-shadow: 2px 2px 2px darkred;
+}
+#p1{
+    font-size: 40px;
+    color: #888;
+    text-align: center;
+}
+#p2{
+    text-align: center;
+    color: saddlebrown;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.ab1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: blueviolet;
+    margin-top: 80px;
+}
+.ab1 cite{
+    margin-top: 20px;
+}
+.per1{
+    display: flex;
+    flex-direction: column;
+    margin-left:50px;
+    
+}
+.per1 p{
+    width: 200px;
+    
+}
+.per1 img {
+    width: 100px;
+    height: 80px;
+    margin-left: 10px;
+} 
+.per2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+   
+}
+.per2 img {
+    width: 100px;
+    height: 80px;
+} 
+.per2 p{
+    width: 200px;
+    
+    margin-right: 20px;
+}
+.per3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 320px;
+}
+.per3 p{
+    width: 200px;
+    text-align: center;
+}
+.per3 img {
+    width: 100px;
+    height: 80px;
+} 
+.i1{
+    text-align: justify;
+    color: rgb(104, 10, 0);
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.p6{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+#reviews a{
+   text-decoration: none;
+   color: crimson;
+}
+#reviews cite{
+    float: right;
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgb(67, 114, 116);
+}
+.n3 cite {
+    padding-top: 50px;
+}
+#reviews img{
+ 
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+h3{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+}
+.n1{
+    margin-left: 50px;
+}
+.n1 img{
+    margin-top: 40px;
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+hr{
+    margin-top: 50px;
+    color: darkgrey;
+}
+.n2{
+    margin-left: 50px;
+}
+.n2 img{
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    width: 300px;
+}
+.n3{
+    margin-left: 50px;
+    display: flex;
+}
+.n3 img{
+    
+    width: 300px;
+}
+.p9{
+    margin-top: 80px;
+    text-align: center;
+}
+.part1,.part2,.part3{
+    margin-top: 50px;
+    margin-left: 75px;
+}
+.part2 {
+    margin-right: 60px;
+}
+.part1 p{
+   width: 65%;
+}
+.n4 #p3 {
+    padding-top: 30px;
+}
+.n4 .pics {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    margin-left: 510px;
+}
+.n4 .pics p {
+    margin-top: 210px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 11px;
+    font-weight: bolder;
+}
+.n4 .pics img {
+    width: 100px;
+    height: 200px;
+}
+.n5 p {
+    margin-left: 25px;
+}
+.n5 img{
+    width: 210px;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+#h0{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.rotate{
+   animation: rotation 5s linear  infinite ;
+   vertical-align: middle;
+   padding-top: 50px;
+     
+}
+@keyframes rotation{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(359deg);
+  }
+}
+#contact div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 40px;
+}
+#contact div p{
+    font-weight: bolder;
+}
+#contact div iframe{
+    margin-top: 30px;
+    margin-left: 450px;
+}
+form{
+    margin-top: 60px;
+    margin-left: 450px;
+    height: 530px;
+    width: 500px;
+    background-color: lightblue;
+    border: 3px dashed goldenrod;
+}
+form img{
+    margin-top: 20px;
+    margin-left: 160px;
+}
+form label{
+    margin-left: 30px;
+}
+#c1,#c2{
+    margin-top: 40px;
+    width: 250px;
+    height: 20px;
+    margin-left: 60px;
+    outline: powderblue;
+}
+input[type="submit"]{
+    margin-top: 50px;
+    margin-left: 220px;
+    border-radius: 30px;
+    line-height: 25px;
+    outline: powderblue;
+}
+footer{
+  background-image: url(../pics/book.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  margin-top: 40px;
+}
+.ic{
+    color: rgb(23, 27, 27);
+    padding-top: 60px;
+    margin-right: 50px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(23, 27, 27);
+}
+.lo1 ,.lo5{
+    color: blue;
+}
+.lo2{
+    color: rgb(21, 169, 206);
+}
+.lo3,.lo6{
+    color:red;
+}
+.lo4{
+    color: rgb(75, 5, 19);
+}
+.sm{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 30px;
+    margin-left: 10px;
+}
